@@ -1,0 +1,12 @@
+name: Final_QA_Automation_Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubunto-latest
+    steps:
+      - run: echo "meow"
