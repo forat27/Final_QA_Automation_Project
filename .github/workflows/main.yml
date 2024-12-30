@@ -9,4 +9,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubunto-latest
     steps:
-      - run: echo "meow"
+      - run: git --version
